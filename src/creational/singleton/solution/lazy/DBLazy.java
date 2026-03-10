@@ -1,4 +1,4 @@
-package creational.singleton.lazy;
+package creational.singleton.solution.lazy;
 
 public class DBLazy {
     private static DBLazy db;

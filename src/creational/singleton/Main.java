@@ -1,7 +1,8 @@
 package creational.singleton;
 
-import creational.singleton.eager.DBEager;
-import creational.singleton.lazy.DBLazy;
+import creational.singleton.solution.DBConnection;
+import creational.singleton.solution.eager.DBEager;
+import creational.singleton.solution.lazy.DBLazy;
 import creational.singleton.problem.DBConnectionProblem;
 
 public class Main {

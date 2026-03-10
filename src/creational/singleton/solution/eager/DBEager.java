@@ -1,4 +1,4 @@
-package creational.singleton.eager;
+package creational.singleton.solution.eager;
 
 public class DBEager {
     private static final DBEager db = new DBEager();

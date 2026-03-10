@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.solution;
 
 public class DBConnection {
     private static volatile DBConnection db;
