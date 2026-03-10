@@ -7,7 +7,6 @@ import creational.factory.solution.model.PaymentType;
 public class Main {
     public static void main(String[] args) {
         PaymentServiceProblem ps = new PaymentServiceProblem();
-
         ps.pay("CC", 100);
         ps.pay("DC", 100);
         ps.pay("UPI", 100);
