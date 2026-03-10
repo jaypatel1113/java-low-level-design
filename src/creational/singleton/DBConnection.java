@@ -1,7 +1,7 @@
 package creational.singleton;
 
 public class DBConnection {
-    private static DBConnection db;
+    private static volatile DBConnection db;
 
     private DBConnection(){}
 
